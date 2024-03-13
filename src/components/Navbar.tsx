@@ -43,7 +43,7 @@ const Navbar = () => {
           className="flex justify-center items-center gap-2 text-2xl"
         >
           <Image src={logo} alt="logo" className="h-12 w-12" />
-          <h1 className="text-white">QuillAudits</h1>
+          <h1 className="text-white hidden md:block">QuillAudits</h1>
         </Link>
         <div className="text-white  gap-8 hidden lg:flex">
           {navLinks.map((nItems, i) => (
@@ -66,7 +66,7 @@ const Navbar = () => {
 
         <Link
           href={"/requestauditpage"}
-          className={`${buttonVariants({ variant: "default" })} hidden lg:flex`}
+          className={`${buttonVariants({ variant: "default" })} flex`}
         >
           Request an Audits
         </Link>
@@ -105,7 +105,7 @@ const Navbar = () => {
                     variant: "default",
                   })}`}
                 >
-                  Request an Audits
+                  Check your Audits
                 </Link>
               </SheetTitle>
             </SheetHeader>

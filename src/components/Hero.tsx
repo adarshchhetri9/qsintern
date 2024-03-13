@@ -8,10 +8,14 @@ const Hero = () => {
     <section className="relative">
       <main className="relative hero">
         <div className="absolute w-full ">
-          <div className="flex sm:justify-center justify-between items-center   sm:pt-20 pt-14  px-12 ">
-            <div className="flex flex-col lg:flex-row  gap-5 justify-center items-center  ">
-              <div className=" bg-gradient-to-r from-gray-900 via-gray-900 to-green-700 text-white flex-1 px-7 py-5 rounded-lg flex flex-col gap-4 sm:gap-10 justify-between">
-                <div className="flex items-center justify-end">
+          <div className="md:hidden m-5 hover:text-muted-foreground cursor-pointer ">
+            <h1 className="mb-2 font-semibold text-white">Case Studies</h1>
+            <div className="border border-blue-600 w-3/12 "></div>
+          </div>
+          <div className="flex sm:justify-center justify-between items-center   sm:pt-20 md:pt-14  md:px-12 ">
+            <div className="flex flex-col lg:flex-row gap-2 md:gap-5 justify-center items-center  ">
+              <div className=" bg-gradient-to-r from-gray-900 via-gray-900 to-green-700 text-white flex-1 md:px-7 px-5 py-20 md:py-5 md:rounded-lg flex flex-col gap-4 sm:gap-10 justify-between">
+                <div className="md:flex items-center justify-end hidden">
                   <Image
                     src={cdblack}
                     alt="cdblack"
@@ -19,7 +23,8 @@ const Hero = () => {
                   />
                 </div>
                 <Image src={cd} alt="cd" />
-                <p>
+
+                <p className="hidden md:block">
                   Carpe Diem Pension, a blockchain-based{" "}
                   <br className="hidden sm:block" />
                   retirement fund, offers permanent payouts
@@ -27,6 +32,15 @@ const Hero = () => {
                   a 4.32% annual <br className="hidden sm:block" />
                   inflation claimable by depositors.
                 </p>
+              </div>
+              <div className="for-mobile">
+                <div className="flex md:hidden items-center justify-end ">
+                  <Image
+                    src={cdblack}
+                    alt="cdblack"
+                    className="bg-white relative bottom-8 left-20 rounded-lg"
+                  />
+                </div>
               </div>
               <div className=" flex-1 text-white gap-6 flex flex-col tracking-wide ">
                 <h1 className="text-2xl font-semibold ">
@@ -52,7 +66,7 @@ const Hero = () => {
       <p className="absolute bottom-1 px-4 sm:bottom-2 sm:w-3/5 text-center text-white ">
         <span className="text-muted-foreground">
           QuillAudits &#8594; Resources &#8594;
-        </span>
+        </span>{" "}
         Case Studies
       </p>
     </section>

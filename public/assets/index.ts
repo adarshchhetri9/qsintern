@@ -8,6 +8,7 @@ import verWhite from "./Vector.png";
 import verBlue from "./VectorBlue.png";
 import mailsss from "./OBJECTS.png";
 import star from "./Star 6.png";
+import Ceo from "./ceoP.png";
 
 export {
   logo,
@@ -20,4 +21,5 @@ export {
   verWhite,
   mailsss,
   star,
+  Ceo,
 };

@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 import Info from "./Info";
 import CeoTemp from "./CeoTemp";
 import Newsletter from "./Newsletter";
+import Headqauter from "./Headqauter";
 
 const Main = () => {
   return (
@@ -47,13 +48,8 @@ const Main = () => {
           <CeoTemp />
         </div>
         <div className=" md:w-2/5 relative  ">
-          <div className=" md:relative md:top-20 ">
-            <div className="block p-2 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]  hover:border-blue-700 border-blue-400 rounded-md  border w-1/2">
-              <p className="">Headquarters</p>
-              <h5>Switzerland</h5>
-              <p>Chain</p>
-              <h5>Pulse Blockchain</h5>
-            </div>
+          <div className="hidden md:block">
+            <Headqauter />
           </div>
         </div>
       </div>
