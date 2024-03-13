@@ -32,10 +32,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className="sticky z-50 top-0 w-full px-3  sm:px-20 pt-5 
-      bg-gradient-to-l from-[#06113F] vai-[#0D2060] to-[#31356F]
+      className="sticky z-40 top-0 w-full px-3  sm:px-20 pt-5
+    bg-gradient-to-l from-[#06113F] vai-[#0D2060] to-[#31356F]
 
-      "
+    "
     >
       <div className="flex  justify-between items-center gap">
         <Link
