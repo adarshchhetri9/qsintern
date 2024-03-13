@@ -68,7 +68,7 @@ export const CarpeDiem = [
 
 export const pensionJourney = [
   {
-    title: "CarpeDiem Pension's Journey Through our Audit Process",
+    title: "Information Gathering:",
     points: [
       {
         point:
@@ -170,5 +170,79 @@ export const manualmorepoints = [
   {
     pointss: "Solidity best practices:",
     ans: " Compliance with secure coding standards and adherence to established guidelines.",
+  },
+];
+
+export const strategicAppr = [
+  {
+    title: "QuillAudits' Strategic Approach to CDP Security Audits",
+    points:
+      "We prioritize threat modeling based on platform-specific risks. Security-first, we identify and mitigate vulnerabilities beyond functionality testing. Using white-box and black-box tests, we conduct thorough vulnerability assessments. Maintaining transparency, we communicate openly with the CDP team. Emphasizing clarity, we present actionable insights for efficient issue resolution.",
+  },
+  {
+    title: "Comprehensive Audit Discoveries and Remediation Strategies",
+    points:
+      "Throughout the audit process, we unearthed a total of 33 issues, spanning from minor concerns to critical vulnerabilities. Among these, some of the critical issues identified were: Here's how we remediated them :",
+  },
+];
+
+export const discoveries = [
+  {
+    main: "Unauthorized Claim/Compound:",
+    second:
+      "Users could claim/compound a substantial amount without making a deposit or waiting for the stipulated time.",
+  },
+  {
+    main: "Precision Loss in mintCDP():",
+    second:
+      "Precision loss and unscaled values were identified while calculating rewardPerShare in the mintCDP() function.",
+  },
+  {
+    main: "Multiplication Accuracy:",
+    second:
+      "Multiplication operations were prone to providing incorrect answers due to unscaled values, posing a potential risk to accurate calculations.",
+  },
+  {
+    main: "Incorrect Share Allocation:",
+    second:
+      "The protocol was allocating shares for all days, even when there were no corresponding deposits, leading to inefficient use of resources.",
+  },
+  {
+    main: "Logic Error in Referral Handling:",
+    second:
+      "A logic error resulted in users always having their user.referral set to address(0), which could be exploited to trick the referral system",
+  },
+  {
+    main: "Referral Exploitation:",
+    second:
+      "Users could exploit the referral system to extract more CDP from the protocol, undermining its integrity.",
+  },
+];
+
+export const lastRandI = [
+  {
+    title: "Remediation & Impact:",
+    point:
+      "All identified vulnerabilities were addressed by the CDP team, significantly enhancing the smart contract's security posture. Key improvements include",
+  },
+];
+
+export const extraPoint = [
+  {
+    point: "Implementation of reentrancy protection mechanisms.",
+  },
+  {
+    point:
+      "Accurate handling of decimal values using established libraries or best practices.",
+  },
+  {
+    point: "Revised calculations with proper scaling factors",
+  },
+  {
+    point:
+      "Fixing logic errors to ensure deposits and waiting periods are enforced.",
+  },
+  {
+    point: "Addressing referral system vulnerabilities to prevent abuse.",
   },
 ];

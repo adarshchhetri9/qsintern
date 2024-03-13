@@ -3,6 +3,8 @@ import Hero from "./Hero";
 import BeforeAndAfter from "./BeforeAndAfter";
 import { Button } from "./ui/button";
 import Info from "./Info";
+import CeoTemp from "./CeoTemp";
+import Newsletter from "./Newsletter";
 
 const Main = () => {
   return (
@@ -15,7 +17,7 @@ const Main = () => {
 
       <Button className="mx-auto block px-6 py-2 my-5">Request an Audit</Button>
 
-      <div className="md:px-20 px-5 items-center justify-between bg-gray-400 flex md:flex-row flex-col-reverse w-full">
+      <div className="md:px-36 px-5  justify-between bg-gray-400 flex md:flex-row flex-col-reverse w-full">
         <div className=" md:w-3/5 ">
           <h1 className="md:pr-32">
             Carpe Diem Pension, on Pulse blockchain, redefines retirement with a
@@ -25,18 +27,37 @@ const Main = () => {
             users globally.
           </h1>
           <Info />
+          <p className="font-semibold my-5">
+            Embed this tweet :-
+            <a
+              className="text-blue-500 underline font-normal hover:text-blue-700"
+              href="https://x.com/CarpeDiemCDP/status/1742906560794296402?s=20"
+            >
+              https://x.com/CarpeDiemCDP/ <br /> status/1742906560794296402?s=20
+            </a>
+          </p>
+          <p className="md:pr-32">
+            CDP smart contract audit revealed and fixed critical
+            vulnerabilities, safeguarding funds and ensuring platform stability.
+            This underscores the need for proactive security in blockchain
+            projects, crucial for financial asset management. Through audits and
+            issue resolution, CDP reinforces platform security, bolstering user
+            trust.
+          </p>
+          <CeoTemp />
         </div>
-        <div className=" md:w-2/5 relative ">
-          <div className="shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]  hover:border-blue-700 border-blue-300 border">
-            <div>
-              <p>Headquarters</p>
+        <div className=" md:w-2/5 relative  ">
+          <div className=" md:relative md:top-20 ">
+            <div className="block p-2 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]  hover:border-blue-700 border-blue-400 rounded-md  border w-1/2">
+              <p className="">Headquarters</p>
               <h5>Switzerland</h5>
+              <p>Chain</p>
+              <h5>Pulse Blockchain</h5>
             </div>
-            <p>Chain</p>
-            <h5>Pulse Blockchain</h5>
           </div>
         </div>
       </div>
+      <Newsletter />
     </div>
   );
 };
