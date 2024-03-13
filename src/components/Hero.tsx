@@ -50,7 +50,10 @@ const Hero = () => {
         />
       </main>
       <p className="absolute bottom-1 px-4 sm:bottom-2 sm:w-3/5 text-center text-white ">
-        QuillAudits Resources Case Studies
+        <span className="text-muted-foreground">
+          QuillAudits &#8594; Resources &#8594;
+        </span>
+        Case Studies
       </p>
     </section>
   );
