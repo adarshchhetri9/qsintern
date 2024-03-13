@@ -1,4 +1,14 @@
-import { challengesImg, flexibleImg } from "../../public/assets";
+import {
+  challengesImg,
+  discord,
+  flexibleImg,
+  linkld,
+  media,
+  reddit,
+  telegram,
+  x,
+  yt,
+} from "../../public/assets";
 
 export const navLinks = [
   {
@@ -244,5 +254,184 @@ export const extraPoint = [
   },
   {
     point: "Addressing referral system vulnerabilities to prevent abuse.",
+  },
+];
+
+export const footerItems = [
+  {
+    ftitle: "Quill Ecosystem",
+    fItems: [
+      {
+        fItem: "QuillAI",
+      },
+      {
+        fItem: "QuillCheck",
+      },
+      {
+        fItem: "QuillShield",
+      },
+      {
+        fItem: "QuillAcademy",
+      },
+      {
+        fItem: "QuillMonitor",
+      },
+      {
+        fItem: "Web3Suggest",
+      },
+      {
+        fItem: "Explore All Tools",
+      },
+    ],
+  },
+  {
+    ftitle: "Other Services",
+    fItems: [
+      {
+        fItem: "Red Teaming",
+      },
+      {
+        fItem: "dApp Pentesting",
+      },
+      {
+        fItem: "DeFi Diligence",
+      },
+      {
+        fItem: "NFT Due Diligence",
+      },
+      {
+        fItem: "Rug Pull Due Diligence",
+      },
+      {
+        fItem: "Security Consultation",
+      },
+      {
+        fItem: "Blockchain Forensics",
+      },
+      {
+        fItem: "KYC (Know Your Customer)",
+      },
+    ],
+  },
+  {
+    ftitle: "Quick Links",
+    fItems: [
+      {
+        fItem: "Pricing",
+      },
+      {
+        fItem: "Audit Process",
+      },
+      {
+        fItem: "Our Audits",
+      },
+      {
+        fItem: "Testimonials",
+      },
+      {
+        fItem: "Security Synopsis",
+      },
+      {
+        fItem: "Blog",
+      },
+      {
+        fItem: "Clients",
+      },
+      {
+        fItem: "Careers",
+      },
+    ],
+  },
+];
+
+export const footerButton = [
+  {
+    bid: 1,
+    name: "Refer-Earn-Secure",
+  },
+  {
+    bid: 2,
+    name: "WAGSI Grants",
+  },
+  {
+    bid: 3,
+    name: "Ambassador Program",
+  },
+  {
+    bid: 4,
+    name: "Partnership Program",
+  },
+];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: x,
+  },
+  {
+    id: 2,
+    img: linkld,
+  },
+  {
+    id: 3,
+    img: telegram,
+  },
+  {
+    id: 4,
+    img: reddit,
+  },
+  {
+    id: 5,
+    img: media,
+  },
+  {
+    id: 6,
+    img: discord,
+  },
+  {
+    id: 7,
+    img: yt,
+  },
+];
+
+export const Audit = [
+  {
+    name: "Ethereum Audit",
+  },
+  {
+    name: "Polygon Audit",
+  },
+  {
+    name: "BSC Audit",
+  },
+  {
+    name: "Solana Audit",
+  },
+  {
+    name: "NEAR Audit",
+  },
+  {
+    name: "Algorand Audit",
+  },
+  {
+    name: "Tezos Audit",
+  },
+  {
+    name: "Hyperledger Fabric Audit",
+  },
+  {
+    name: "L1 Audit",
+  },
+  {
+    name: "Polkadot Audit",
+  },
+  {
+    name: "Wallet Audit",
+  },
+  {
+    name: "ZkSync Audit",
+  },
+  {
+    name: "Starknet Audit",
   },
 ];

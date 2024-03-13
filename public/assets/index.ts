@@ -9,6 +9,15 @@ import verBlue from "./VectorBlue.png";
 import mailsss from "./OBJECTS.png";
 import star from "./Star 6.png";
 import Ceo from "./ceoP.png";
+import telangana from "./telangana.png";
+import defi from "./Defisec.png";
+import x from "./X.png";
+import yt from "./yt.png";
+import discord from "./discord.png";
+import telegram from "./telegram.png";
+import reddit from "./reddit.png";
+import media from "./Media.png";
+import linkld from "./LinkedIn.png";
 
 export {
   logo,
@@ -22,4 +31,13 @@ export {
   mailsss,
   star,
   Ceo,
+  telangana,
+  defi,
+  x,
+  yt,
+  discord,
+  reddit,
+  telegram,
+  media,
+  linkld,
 };

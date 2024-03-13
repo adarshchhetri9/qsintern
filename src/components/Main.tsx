@@ -6,6 +6,7 @@ import Info from "./Info";
 import CeoTemp from "./CeoTemp";
 import Newsletter from "./Newsletter";
 import Headqauter from "./Headqauter";
+import Footer from "./Footer";
 
 const Main = () => {
   return (
@@ -54,6 +55,7 @@ const Main = () => {
         </div>
       </div>
       <Newsletter />
+      <Footer />
     </div>
   );
 };
