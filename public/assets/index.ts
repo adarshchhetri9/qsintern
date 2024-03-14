@@ -18,6 +18,7 @@ import telegram from "./telegram.png";
 import reddit from "./reddit.png";
 import media from "./Media.png";
 import linkld from "./LinkedIn.png";
+import footerbg from "./footerBG.png";
 
 export {
   logo,
@@ -40,4 +41,5 @@ export {
   telegram,
   media,
   linkld,
+  footerbg,
 };

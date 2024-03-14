@@ -19,7 +19,7 @@ const Main = () => {
 
       <Button className="mx-auto block px-6 py-2 my-5">Request an Audit</Button>
 
-      <div className="md:px-36 px-5  justify-between bg-gray-400 flex md:flex-row flex-col-reverse w-full">
+      <div className="md:px-36 px-5  justify-between  flex md:flex-row flex-col-reverse w-full mt-10">
         <div className=" md:w-3/5 ">
           <h1 className="md:pr-32">
             Carpe Diem Pension, on Pulse blockchain, redefines retirement with a

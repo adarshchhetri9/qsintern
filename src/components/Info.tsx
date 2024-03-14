@@ -43,11 +43,18 @@ const Info = () => {
                     {ip === 1 && // Check if the current point index is 1
                       manualmorepoints.map((extrapoints, i) => (
                         <ul key={i} className="pl-10 my-3">
-                          <li className="list-disc my-2 ">
-                            <span className="font-semibold italic">
-                              {extrapoints.pointss}
-                            </span>{" "}
-                            <span className="">{extrapoints.ans}</span>
+                          <li className=" my-2 ">
+                            <div className="flex gap-2 justify-center ">
+                              <div className="text-[8px] relative top-1.5">
+                                &#9675;{" "}
+                              </div>
+                              <div>
+                                <span className="font-semibold italic">
+                                  {extrapoints.pointss}
+                                </span>{" "}
+                                <span className="">{extrapoints.ans}</span>
+                              </div>
+                            </div>
                           </li>
                         </ul>
                       ))}
