@@ -1,5 +1,7 @@
 qsintern 
 
+Intern task
+
 To run the development server:
 
 ```bash
@@ -12,5 +14,4 @@ pnpm dev
 bun dev
 ```
 
-and
 
