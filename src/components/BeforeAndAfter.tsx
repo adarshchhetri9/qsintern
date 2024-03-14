@@ -7,7 +7,7 @@ const BeforeAndAfter = () => {
     <main className=" flex items-center justify-center flex-col">
       <section className="md:flex  w-full mt-14 justify-center px-4 lg:px-64 sm:h-48 h-full  ">
         <div className="Before QuillAudits ">
-          <h1 className=" bg-pink-300 font-bold">Before QuillAudits"</h1>
+          <h1 className=" bg-pink-300 font-bold">Before QuillAudits</h1>
           <ul className="">
             {BandAQuillaudits.map((item, i) => (
               <li

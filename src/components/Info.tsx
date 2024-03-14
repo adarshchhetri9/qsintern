@@ -24,7 +24,7 @@ const Info = () => {
       </div>
       <div>
         <h1 className="font-bold text-4xl my-10 md:pr-32">
-          CarpeDiem Pension's Journey Through our Audit Process
+          CarpeDiem Pension{"'"}s Journey Through our Audit Process
         </h1>
 
         {pensionJourney.map((info, ip) => (
