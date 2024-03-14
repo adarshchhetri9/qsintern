@@ -42,7 +42,7 @@ const Info = () => {
                   <div>
                     {ip === 1 && // Check if the current point index is 1
                       manualmorepoints.map((extrapoints, i) => (
-                        <ul key={i} className="pl-10 my-3">
+                        <ul key={i} className="md:pl-10 pl-3 my-3">
                           <li className=" my-2 ">
                             <div className="flex gap-2 justify-center ">
                               <div className="text-[8px] relative top-1.5">

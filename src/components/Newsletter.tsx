@@ -12,7 +12,7 @@ const Newsletter = () => {
         </h1>
         <div className="border border-blue-600 w-3/12 mx-auto mt-2  "></div>
       </div>
-      <main className="md:bg-[#EDF2FE]  flex justify-center items-center px-10 md:px-40 md:py-10">
+      <main className="md:bg-[#EDF2FE]  flex justify-center items-center px-10  md:px-40 md:py-10">
         <div className="hidden md:flex flex-col justify-center gap-10  ">
           <p className="font-semibold text-lg text-blue-500"> NEWSLETTER</p>
           <h1 className="text-blue-900 text-3xl font-bold tracking-wide">
@@ -39,7 +39,7 @@ const Newsletter = () => {
             />
             <Button className="hidden md:block">Subscribe</Button>
           </div>
-          <Button className="md:hidden mx-auto">Subscribe</Button>
+          <Button className="md:hidden mx-auto mb-20">Subscribe</Button>
         </div>
       </main>
     </section>
